@@ -55,3 +55,30 @@ Patterns:
 ---
 
 ## Architecture
+
+Trace File
+│
+▼
+Trace Parser
+│
+▼
+Cache Simulator
+│
+▼
+Cache Model
+│
+▼
+Replacement Policy
+│
+▼
+Metrics + Graphs
+
+
+---
+
+## Installation
+
+```bash
+git clone <repo>
+cd riscv-memory-hierarchy
+pip install -r requirements.txt
